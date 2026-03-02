@@ -1,0 +1,250 @@
+.navbar_frame {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  width: 100%;
+  height: 145px;
+  background: rgb(68, 50, 151);
+}
+
+.navbar_frame .container {
+  position: relative;
+  padding: 20px 0px 14px;
+  width: 1320px;
+  height: auto;
+}
+
+.navbar_frame .container .navbar_top {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar_frame .container .navbar_bottom {
+  border-top: 1px solid #5646a1;
+  margin-top: 15px;
+}
+
+.navbar_top .nav_search_frame {
+  width: 651px;
+  height: 50px;
+  border-radius: 6px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar_frame .container .navbar_bottom {
+}
+
+.nav_search_frame .search_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 10px 17px;
+}
+
+.search_box .category_list {
+  width: 166px;
+  height: 30px;
+
+  border-right: 1px solid rgb(214, 214, 214);
+}
+
+.category_list select {
+  width: 140px;
+  height: 30px;
+
+  border: none;
+  outline: none;
+
+  color: #041e42;
+
+  /* 15 / Regular */
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 146.667% */
+}
+
+.search_box input {
+  width: 387px;
+  height: 22px;
+  border: none;
+  outline: none;
+  color: #626974;
+
+  /* 15 / Regular */
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 146.667% */
+  text-align: left;
+}
+
+.nav_search_frame .seach_icon_box {
+  width: 60px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 0 6px 6px 0;
+  background: #f5c34b;
+}
+
+.navbar_top .nav_top_menu {
+  width: 416px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav_top_menu .top_menu_box {
+  display: flex;
+  flex-direction: row;
+}
+
+.top_menu_box .box_icon_box {
+  width: 54px;
+  height: 50px;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.box_icon_box img {
+  width: 22px;
+  height: 22px;
+}
+
+.top_menu_box .box_info_box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  justify-content: flex-end;
+}
+
+.box_info_box span {
+  color: #fff;
+
+  /* 13 / Regular */
+  font-family: Jost;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 169.231% */
+}
+
+.box_info_box strong {
+  color: #fff;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.box_icon_box .basket_count {
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  background-color: #f5c34b;
+  border-radius: 50%;
+  color: #0b1e40;
+  font-family: Jost;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_bottom .navbar_bott_menu_box {
+  margin-top: 10px;
+  height: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar_bottom .browse_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-right: 1px solid #041e42;
+  width: 185px;
+}
+
+.browse_box span {
+  color: #fff;
+  margin-left: 10px;
+
+  /* 16/Medium */
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  text-align: left;
+}
+
+.browse_box img {
+  width: 20px;
+  height: 18px;
+}
+
+.navbar_bott_menu_box .navbar_route_menu {
+  display: flex;
+  flex-direction: row;
+
+  width: 670px;
+}
+
+.navbar_route_menu a {
+  color: #fff;
+  margin-right: 10px;
+
+  /* 16/Medium */
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.navbar_route_menu a.title {
+  color: #f5c34b;
+}
+
+.sorting_menu span {
+  color: #fff;
+  margin-left: 10px;
+
+  /* 16/Medium */
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
